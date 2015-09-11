@@ -1,6 +1,6 @@
-Ola Nomealumno,
+Ola Nomealumno:
 
-son Nomeprofesor, o titor do curso Nomecurso, e quero darche a benvida no meu nome, e no de Roberto Martín, que será o profesor do curso.
+Son Nomeprofesor, o titor do curso «Nomecurso», e quero darche a benvida no meu nome, e no de Roberto Martín, que será o profesor do curso.
 
 Para poder acceder ao curso, debes seguir os seguintes pasos:
 

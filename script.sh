@@ -18,6 +18,14 @@
 # body.tmp- ficheiro co texto final que vai no corpo da mensaxe
 #
 
+if [ $# -lt 3 ] ; then
+	echo "Uso: script.sh participantes.csv modelo.txt datos.txt [arg1 ...]"
+	exit 1
+fi
+
+# Pechamos calquera instancia de Thunberbird para evitar a creación das novas mensaxes de xeito simultáneo.
+killall thunderbird
+
 alumnos=$1
 modelo=$2
 datos=$3
